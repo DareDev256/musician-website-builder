@@ -3,7 +3,7 @@
 _Generated 2026-09-19 from the repo itself (package.json, .vercel, git) by the reorg pass — edit freely; a line here outranks recall._
 
 - **What:** **A named-premise engine for artist websites.**
-- **Category:** `~/Projects/products/coldopen` · remote `https://github.com/DareDev256/coldopen.git`
+- **Category:** `~/Projects/products/coldopen` · remote `https://github.com/DareDev256/musician-website-builder.git` (renamed from coldopen 2026-11-15)
 - **Stack:** MEASURE
 - **Run:** `npm run test` · `npm run build:site`
 - **Deploy:** MEASURE (no .vercel link found)

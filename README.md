@@ -1,4 +1,23 @@
-# COLD OPEN
+# COLD OPEN: musician website builder
+
+COLD OPEN is an open-source musician website builder for developers who make sites for artists: it finds the artist on Apple Music, Deezer and MusicBrainz, runs an interview, offers three named premises, and builds a one-page static site that refuses to print a number it cannot source.
+
+![The COLD OPEN studio at step 1 of 7: type the artist's name and it is looked up on Apple Music, Deezer and MusicBrainz](docs/screenshots/2026-11-15_musician-website-builder-studio.png)
+
+## Quick start
+
+Requires Node 20+.
+
+```bash
+git clone https://github.com/DareDev256/musician-website-builder.git
+cd musician-website-builder
+node --test --experimental-strip-types engine/test/*.test.ts   # 64 tests, no deps
+cd studio && npm install && npm run dev                          # the studio, http://localhost:4300
+```
+
+License: MIT, see [LICENSE](LICENSE).
+
+---
 
 **A named-premise engine for artist websites.**
 
@@ -266,9 +285,9 @@ searches for the point with the most clearance.
 Requires Node 20+.
 
 ```bash
-git clone https://github.com/DareDev256/coldopen
-cd coldopen
-node --test --experimental-strip-types engine/test/*.test.ts   # 42 tests, no deps
+git clone https://github.com/DareDev256/musician-website-builder.git
+cd musician-website-builder
+node --test --experimental-strip-types engine/test/*.test.ts   # 64 tests, no deps
 ```
 
 ### Build a world
