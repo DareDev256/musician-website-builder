@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.2.1] - 2026-11-19
+
+### Added
+- `engine/test/slop.test.ts`: runs the house slop-lint over the emitters, the world template, built worlds and the studio UI and fails on any BAN (marquee/ticker, spinning text badge, sparkle glyph, gradient text); a planted marquee must exit 3, so the check proves it can fail. Skipped with a notice where slop-lint is not installed. Audit found 0 BANs in the emitters and every world at this date.
+
 ## [0.2.0] - 2026-09-20
 
 ### Added
